@@ -1,3 +1,18 @@
+// print array 
+
+// const names = ['lokesh', 'omkar', 'prince', 'akash']
+
+// const printNames = (arr, index) => {
+//     if (index === arr.length) return
+
+//     console.log(arr[index])
+//     return printNames(arr, index + 1)
+
+// }
+
+// printNames(names, 0)
+
+
 // Sum of Array
 
 
@@ -12,6 +27,7 @@
 
 // const result = sumOfNumber(6)
 // console.log(result);
+
 
 const numbers = [1, 2, 3, 4, 5, 6]
 
