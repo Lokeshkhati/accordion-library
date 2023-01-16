@@ -1,7 +1,7 @@
 // intersection of arrays
 
-const arr1 = [2, 3, 4, 6, 7, 8, 9,10]
-const arr2 = [1, 3, 5, 6, 9, 10]
+const arr1 = [2, 3, 5, 6, 7, 8, 9,10,11]
+const arr2 = [1, 3, 5, 6, 9, 10,11]
 const arr3 = [2, 3, 5, 6, 9, 10, 11]
 
 function findIntersection(arr1, arr2, arr3) {
@@ -14,9 +14,8 @@ function findIntersection(arr1, arr2, arr3) {
             i++; j++, k++
         } else if (arr1[i] < arr2[j]) i++
         else if (arr2[j] < arr3[k]) j++
-        else {
-            k++
-        }
+        else k++
+        
     }
     return result
 }
